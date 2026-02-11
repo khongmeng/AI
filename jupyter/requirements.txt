@@ -1,0 +1,14 @@
+# Core ML stack
+scikit-learn
+numpy
+pandas
+matplotlib
+seaborn
+
+# Utility
+tqdm
+
+# Jupyter
+notebook
+ipykernel
+

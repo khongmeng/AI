@@ -1,0 +1,9 @@
+FROM pytorch/pytorch:2.2.2-cuda12.1-cudnn8-runtime
+
+WORKDIR /workspace
+
+COPY requirements.txt /tmp/requirements.txt
+RUN pip install --no-cache-dir -r /tmp/requirements.txt
+
+CMD ["bash"]
+

@@ -1,0 +1,18 @@
+# To build Docker image
+
+docker build -t pytorch-jupyter .
+
+
+# To Run Docker Container
+
+docker run -it --rm --gpus all \
+  -p 8888:8888 \
+  -v /mnt/d/UST/Class/AI/jupyter:/workspace \
+  pytorch-jupyter
+
+
+
+# To start Jupyter Notebook
+
+jupyter notebook --ip=0.0.0.0 --port=8888 --no-browser --allow-root
+
