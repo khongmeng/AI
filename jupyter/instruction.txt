@@ -1,6 +1,6 @@
 # To build Docker image
 
-docker build -t pytorch-jupyter .
+docker build -t ai:seis764 .
 
 
 # To Run Docker Container
@@ -8,7 +8,7 @@ docker build -t pytorch-jupyter .
 docker run -it --rm --gpus all \
   -p 8888:8888 \
   -v /mnt/d/UST/Class/AI/jupyter:/workspace \
-  pytorch-jupyter
+  ai:seis764
 
 
 

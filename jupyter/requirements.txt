@@ -12,3 +12,7 @@ tqdm
 notebook
 ipykernel
 
+
+# NLP
+spacy
+nltk
