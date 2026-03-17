@@ -7,6 +7,7 @@ seaborn
 
 # Utility
 tqdm
+ipywidgets
 
 # Jupyter
 notebook
@@ -16,3 +17,7 @@ ipykernel
 # NLP
 spacy
 nltk
+
+
+# data accesss
+kagglehub

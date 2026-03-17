@@ -3,6 +3,11 @@
 docker build -t ai:seis764 .
 
 
+# Rebuilt docker image
+
+docker build --no-cache -t ai:seis764 .
+
+
 # To Run Docker Container
 
 docker run -it --rm --gpus all \
